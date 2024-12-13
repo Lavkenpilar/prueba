@@ -2,15 +2,17 @@ import React from 'react'
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 
+
+
 const Prueba = () => {
   return (
-    <Card style={{ width: '18rem' }}>
-    <Card.Img variant="top" src='public\kriska.jpg'/>
-    <Card.Body>
-      <Card.Title>Aprovecha esta oportunidad para hacer un gran regalo</Card.Title>
+    <Card style={{ width: '54rem' }}>
+    <Card.Img variant="top" src='/kaiak.svg' style={{width:'36rem'}}/>
+    <Card.Body style={{width:'54rem'}}>
+      <Card.Title style={{width:'54rem', color:'green'}} ><h2>Aprovecha esta oportunidad para hacer un gran regalo</h2></Card.Title>
       </Card.Body>
       <Card.Body>
-      <Card.Link href="#">Card Link</Card.Link>
+      <Card.Link href='https://mpago.la/2coBZyo' style={{borderRadius:6, color:'blue'}}>Pincha aqui para Comprar</Card.Link>
      </Card.Body>
   </Card>
   )
